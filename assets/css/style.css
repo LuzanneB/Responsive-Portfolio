@@ -125,3 +125,51 @@ input{
     left:15px;
     z-index: 3;
 }
+
+@media screen and (max-width: 640px) {
+   header{
+       position: static;
+   }
+    .body {
+    width: 80%;
+    }
+    .container{
+        width:80%;
+    }
+    .name{
+        margin:auto;
+   
+    }
+    .links{
+        margin:auto;
+}}
+
+@media screen and (max-width: 768px) {
+    .body {
+    width: 80%;
+    }
+    .container{
+        width:80%;
+    }
+    .name{
+        margin:auto;
+   
+    }
+    .links{
+    margin:auto;
+}}
+
+@media screen and (max-width: 980px) {
+    .body {
+    width: 80%;
+    }
+    .container{
+        width:80%;
+    }
+    .name{
+        margin:auto;
+   
+    }
+.links{
+    margin:auto;
+}}
